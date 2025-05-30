@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+height: 480px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.ctfassets.net/nnkxuzam4k38/39sOStld2OCyNn3HmCpqco/21d339122a7cb417c83e6ebdc347ea5c/sea-edge-79ab30e2.png?w=640&q=60&fm=webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.avatar {
+width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid darkgoldenrod;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.pealkiri {
+  font-size: 100px;
+  color: white;
+  padding: 10px;
+}
+
+.slogan {
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+}
+.sisu {
+  height: 600px;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.alapealkiri {
+    max-width: 50%;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.pilt {
+width: 600px;
+  height: 100px;
+  float: left;
+  margin: 100px;
+  object-fit: cover;
+}
+.tekst {
+  font-size: 20px;
+  line-height: 2.0;
+}
+.jalus { 
+    position: absolute; 
+    bottom: 40; 
+    background-color: yellow;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+}
